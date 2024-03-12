@@ -1,3 +1,11 @@
 chave de acesso: AKIA4MTWMXDI234KBJE3
 chave secreta: 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
 regiao: us-east-1
+
+ docker-machine create --driver amazonec2 --amazonec2-access-key AKIA4MTWMXDI234KBJE3 --amazonec2-secret-key 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 --amazonec2-vpc-id  --amazonec2-region "us-east-1" cardioup
+
+$ export AWS_ACCESS_KEY_ID=AKIA4MTWMXDI234KBJE3
+$ export AWS_SECRET_ACCESS_KEY=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
+$ docker-machine create --driver amazonec2 aws01
+
+docker-machine create --driver amazonec2 --amazonec2-subnet-id="subnet-0a7d466754bf30929" --amazonec2-vpc-id="vpc-0405a70ccc3fb6dfa" cardioup
