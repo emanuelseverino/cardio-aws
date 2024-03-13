@@ -1,5 +1,5 @@
 """
-ASGI config for projeto project.
+ASGI nginx for projeto project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
